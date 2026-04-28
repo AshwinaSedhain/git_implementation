@@ -1,4 +1,4 @@
-from .calculator import (
+from .calculator import (  # noqa: F401
     add,
     subtract,
     multiply,

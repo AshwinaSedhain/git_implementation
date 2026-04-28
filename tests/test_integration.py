@@ -2,7 +2,7 @@
 Integration tests — verify multiple calculator operations
 working together to simulate real-world usage.
 """
-from calculator import add, subtract, multiply, divide, power, square_root, absolute
+from calculator import add, subtract, multiply, divide, power, square_root, absolute  # noqa: E501
 
 
 def test_chain_add_multiply():
