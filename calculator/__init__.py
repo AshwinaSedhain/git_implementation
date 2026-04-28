@@ -1,1 +1,1 @@
-from .calculator import add, subtract, multiply, divide
+from .calculator import add, subtract, multiply, divide, power, modulo
