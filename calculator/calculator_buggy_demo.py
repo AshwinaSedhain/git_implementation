@@ -1,5 +1,5 @@
-# Intentional bug: divide returns wrong value (for QA demo)
+# Bug fixed: divide now returns correct quotient
 def divide_buggy(a, b):
     if b == 0:
         raise ValueError("Cannot divide by zero")
-    return a * b   # BUG: should be a / b
+    return a / b   # FIXED
